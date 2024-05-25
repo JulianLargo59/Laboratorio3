@@ -169,7 +169,9 @@ header{
     justify-content: center;
     text-align: center;
 }
-
+#proyectos img{
+    border-radius: 0%;
+}
 #proyectos div{
     padding: 30px 30px;
 }
@@ -178,7 +180,7 @@ header{
     font-size: 18px;
     text-align: left;
 }
-#proyectos h4{
+#proyectos h3{
     color: #4D4D5C;
     font-size: 20px;
     margin: 15px 0px;
@@ -187,7 +189,7 @@ header{
 #proyectos div ul{
     color: #4D4D5C87;
     font-size: 18px;
-    text-align: justify;
+    text-align: left;
 }
 
 /*mi experiencia*/
@@ -219,8 +221,6 @@ header{
 }
 
 /*MI BLOG*/
-
-
 .main-section {
     background: #fff;
     margin: 20px;
