@@ -348,6 +348,7 @@ form button:hover {
 #sobre-mi{
     flex-direction: column;
 }
+
 /*ICONOS */
 .cont-iconos{
     flex-direction: column;
@@ -355,5 +356,26 @@ form button:hover {
 .cont-iconos div{
     border: none;
 }
+
 }
+/*Imagen del Proyecto*/
+@media (max-width: 600px) {
+    .responsive-image {
+        width: 100%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+    .responsive-image {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1201px) {
+    .responsive-image {
+        width: 100%;
+    }
+}
+
+
     
